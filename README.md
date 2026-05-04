@@ -5,7 +5,7 @@ npx ng new
 ## Entrar na pasta do projeto
 cd 
 ## Inicializar o servidor angular (modo dev)
-npx ng serve
+'''npx ng serve'''
 ## Criar um novo componente de cabeçalho
 npx ng g c header
 ## Criar um novo componente de rodapé
