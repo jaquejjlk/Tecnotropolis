@@ -5,7 +5,8 @@ import { Perfil } from './pages/perfil/perfil';
 
 
 export const routes: Routes = [
-    {path:'contato',component:Contato},
-    {path:'home',component:Home},
-    {path:'perfil',component:Perfil}
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    {path:'contato',component: Contato},
+    {path:'home',component: Home},
+    {path:'perfil',component: Perfil}
 ];
